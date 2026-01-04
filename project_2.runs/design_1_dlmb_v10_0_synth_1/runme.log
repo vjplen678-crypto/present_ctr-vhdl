@@ -1,0 +1,28 @@
+
+*** Running vivado
+    with args -log design_1_dlmb_v10_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dlmb_v10_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_1_dlmb_v10_0.tcl -notrace
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - E:/vivado/Vivado/2021.2/data/boards/board_files/arty-z7-10/A.0/board.xml. Board will be ignored.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - E:/vivado/Vivado/2021.2/data/boards/board_files/arty-z7-20/A.0/board.xml. Board will be ignored.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - E:/vivado/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/B.0/board.xml. Board will be ignored.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - E:/vivado/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/D.0/board.xml. Board will be ignored.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - E:/vivado/Vivado/2021.2/data/boards/board_files/genesys-zu-5ev/C.0/board.xml. Board will be ignored.
+Resolution: Please contact your board vendor with this message.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1259.840 ; gain = 14.895
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado/matmacu/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_dlmb_v10_0, cache-ID = 186ed6af28fda890.
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 16:00:05 2025...
