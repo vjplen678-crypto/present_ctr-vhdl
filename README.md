@@ -1,23 +1,26 @@
-# VHDL Present Counter
+# PRESENT Cipher in VHDL
 
-Digital counter system designed using VHDL for FPGA / digital logic learning.
+Hardware implementation of the PRESENT lightweight block cipher using VHDL.
 
 ## Description
-This project implements a synchronous counter using VHDL with configurable counting logic. It was developed to practice RTL design, simulation, and hardware description language concepts.
+This project implements the PRESENT lightweight cryptographic algorithm in VHDL for FPGA / digital hardware learning. PRESENT is designed for low-power and resource-constrained embedded devices such as RFID tags, IoT nodes, and smart sensors.
 
 ## Features
-- Counter designed in VHDL
-- Clock-driven synchronous operation
-- Reset control
-- Binary output display
-- Simulation supported
+- PRESENT block cipher implementation
+- 64-bit plaintext block encryption
+- 80-bit / 128-bit key support (depending on version implemented)
+- Round-based architecture
+- Key scheduling logic
+- Simulation and functional verification
 
 ## Technologies
 - VHDL
-- ModelSim / Vivado / Quartus (depending on tool used)
+- Digital Design
+- FPGA / RTL Design
+- ModelSim / Vivado / Quartus
 
 ## Learning Outcomes
-- Finite state / sequential logic design
-- RTL coding style
-- Testbench simulation
-- Timing behavior analysis
+- Hardware cryptography implementation
+- FSM and datapath/control design
+- RTL simulation and debugging
+- Lightweight security for embedded systems
